@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #54B5B5;
+    overflow-y: hidden;
+   
+
+  }
+  .bg-img{
+    position: relative;
+    top: 280px;
+    z-index: -1;
+   
+  }
+  #bg-img{
+    
+    height: 60vh;
+    width: 100%;  
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Londrina solid';
+  font-style: normal;
+  
+  font-size: 70px;
+  line-height: 80px;
+  color: white;
+}
+
+#txt p{
+    text-align: center;
+    
+    display: inline-block;
+    position: relative;
+    top: 2em;
+    
+
+}
+
+#btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   top: 20em;
+}
+#btn button{
+    cursor: grab;
+    border: 0px;
+    background-color: transparent;
+}
+
+

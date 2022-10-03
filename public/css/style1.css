@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #54B5B5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.text-box {
+  width: 40%;
+  position: relative;
+}
+
+.text-box img {
+  position: relative;
+  width: 150%;
+  height: 32%;
+  top: 3%;
+  left: 15%;
+}
+
+.man {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 20%;
+}
+
+.man img {
+  height: 75%;
+  position: relative;
+  left: 60%;
+}
+
+.next-box {
+  display: flex;
+  width: 40%;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.next-box a img{
+  position: relative;
+  right: 5%;
+  bottom: 2%;
+  height: 14%;
+}

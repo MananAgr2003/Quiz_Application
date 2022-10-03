@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #54b5b5;
+  }
+  
+  .container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(5, 1fr);
+   
+    
+  
+  }
+  .man{
+  
+      grid-column-start: 1;
+      grid-column-end: 2;
+  
+      grid-row-start: 1;
+      grid-row-end: 8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      
+  
+      
+  }
+  .man img{
+  
+      height: 75%;
+      width: 83%;
+      min-width: 172px;
+      min-height: 439px;
+      
+  }
+  
+  .text-box{
+  
+      grid-column-start: 2;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      display: flex;
+      position: relative;
+      right: 16%;
+  
+      z-index: -1;
+      
+      
+  
+     
+      
+  
+  
+  }
+  
+  .text-box img{
+      position: relative;
+      height: 60%;
+      width: 65%;
+      
+      min-width: 341.5px;
+      min-height: 163.9px;
+      z-index: -1;
+      
+      
+  }
+  
+ 
+  
+  
+  .opt{
+      font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    font-size: clamp(1.5rem, 1.5vw , 2rem);
+    
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+      top: 90%;
+     
+  }
+  
+  .opt p{
+      
+      position: relative;
+      left: 21%;
+      bottom: 70%;
+      color: #000028;
+      height: 80%;
+      width: 57%;
+  }
+  
+  
+  
+  .opt img{
+      
+      width: 70%;
+      height: 90%;
+      min-width: 230px;
+      min-width: 103px;
+      z-index: -1;
+      
+  }
+  
+  
+  #opt-1{
+      grid-row: 2 /3;
+      grid-column: 2 / 4;
+position: relative;
+left: 38%;
+  }
+  
+  #opt-2{
+      grid-row: 2 / 3;
+      grid-column: 4 / 6;
+      position: relative;
+     left: 13%;
+  }
+  
+  #opt-3{
+      grid-row: 3 /4;
+      grid-column: 2 / 4;
+      position: relative;
+      left: 38%;
+      top: 95%;
+  }
+  
+  #opt-4{
+      
+      grid-row: 3 /4;
+      grid-column: 4 / 6;
+      position: relative;
+      left: 13%;
+      top: 95%;
+  }
+
+
+  #submit{
+
+    grid-row: 5 / 6;
+    grid-column: 3 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  #submit img
+  {
+    position: relative;
+    height: 45%;
+    width: 25%;
+
+    top: 20%;
+    right: 12%;
+  }
